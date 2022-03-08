@@ -11,8 +11,8 @@ readme = "README.md"
 exclude = [".gitignore", ".vscode/*", ".github/*"]
 
 [dependencies]
-criterion = "0.3.4"
-perfcnt = "0.7.2"
+criterion = { git = "https://github.com/shotover/criterion.rs", branch = "version-0.4" }
+perfcnt = "0.8.0"
 
 [[bench]]
 path = "examples/fibo_bench.rs"
